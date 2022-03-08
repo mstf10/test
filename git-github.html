@@ -3,7 +3,13 @@ sonra                   : cd test
                         : git init
                         : git config --global user.name USER                : USER değiştir
                         : git config --global user.email USERMAİL           : USERMAİL değiştir
-                        : git branch -M main                                
+                        : git branch -M main                                : global vermek için git config --global init.defaultBranch main(hatalı olabilir)  
 tüm değişiklikleri ekle : git add .                                         : her değişiklik yapıldığında yeniden bu komutu çalıştır.
                         : git commit -m "buraya commit"                     : her değişiklik yapıldığında yeniden bu komutu çalıştır.
                         : git push origin main                              : her değişiklik yapıldığında yeniden bu komutu çalıştır.
+
+
+
+                        
+                        : git config --list   
+                        : git remote -v                                     : origin listesini getiri                              
