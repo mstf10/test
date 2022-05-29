@@ -1,0 +1,2 @@
+mysqldump db_name > backup-file.sql
+ mysql db_name < backup-file.sql
