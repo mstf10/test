@@ -1,2 +1,2 @@
 mysqldump -u root -p bash > backup-file.sql
-mysqldump -u root -p bash < backup-file.sql
+mysql -u root -p bash < backup-file.sql
